@@ -1,0 +1,25 @@
+{
+  "name": "lit-ssr-create-render-root",
+  "version": "1.0.0",
+  "description": "Demo repo for verifying Lit SSR + createRenderRoot behavior",
+  "author": "Owen Buckley <owen@thegreenhouse.io>",
+  "license": "ISC",
+  "main": "server.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thescientist13/lit-ssr-create-render-root.git"
+  },
+  "keywords": [
+    "Lit",
+    "SSR"
+  ],
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "@lit-labs/ssr": "^2.2.0",
+    "koa": "^2.13.4",
+    "koa-node-resolve": "^1.0.0-pre.9"
+  }
+}
